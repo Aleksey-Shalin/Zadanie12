@@ -7,7 +7,7 @@
 
 int main()
 {
-	// SetConsoleOutputCP(CP_UTF8);
+	// SetConsoleOutputCP(1251);
 	setlocale(LC_ALL, "Russian");
 	std::ofstream file("out.txt");
 	int array_size = 0;
@@ -45,4 +45,5 @@ int main()
 	delete[] array;
 	file.close();
 	return 0;
+
 }
